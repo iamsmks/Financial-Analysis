@@ -1,12 +1,12 @@
-# 📊 Financial Dashboard (Power BI)
+#  Financial Dashboard (Power BI)
 
-## 🚀 Overview
+##  Overview
 This project presents an interactive **Financial Dashboard** built using Power BI to analyze a company's financial performance.  
 It provides insights into **revenue, profitability, cash flow, and budget performance** with dynamic filtering and drill-down capabilities.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - Monitor key financial KPIs  
 - Compare **Budget vs Actual performance**  
 - Analyze **cash flow and liquidity**  
@@ -15,7 +15,7 @@ It provides insights into **revenue, profitability, cash flow, and budget perfor
 
 ---
 
-## 📂 Dataset
+##  Dataset
 The dataset includes:
 
 ### Profit & Loss
@@ -44,7 +44,7 @@ The dataset includes:
 
 ---
 
-## 🧹 Data Preparation
+##  Data Preparation
 - Cleaned and validated dataset (no missing values)  
 - Ensured proper data types (Date, Numeric)  
 - Created a **Date Table** for time-based analysis  
@@ -52,7 +52,7 @@ The dataset includes:
 
 ---
 
-## 📐 Key Metrics (DAX)
+##  Key Metrics (DAX)
 
 ```DAX
 Total Revenue = SUM(Financial[Revenue])
