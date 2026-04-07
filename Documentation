@@ -1,0 +1,34 @@
+**Financial Dashboard – Logic, Insights, and Assumptions**
+
+**1. Dashboard Logic & Design Approach**
+The financial dashboard is designed to provide a comprehensive, monthly-level overview of the company’s financial performance. The layout follows a top-down approach: high-level KPIs are presented first, followed by detailed breakdowns and trends. Key performance indicators (KPIs) such as Total Revenue (24M), Gross Profit (11M), EBITDA (6M), and Net Cash (688K) are displayed prominently to give stakeholders an immediate snapshot of financial health.
+
+Interactive filtering capabilities are implemented using slicers for date range, region (East, North, South, West), and product/service categories. This enables users to dynamically explore data across multiple dimensions without navigating away from the dashboard.
+
+The visual components are structured as follows:
+
+* **Trend Analysis:** Line charts track revenue, profit trends, and cash flows over time to identify patterns and seasonality.
+* **Comparative Analysis:** Bar charts compare revenue against budget and across product/service categories.
+* **Distribution Analysis:** A donut chart highlights revenue contribution by region, helping identify top-performing areas.
+* **Operational Metrics:** Payables aging is included to monitor financial efficiency and working capital management.
+
+**2. Key Insights Derived**
+
+* Revenue remains relatively stable with slight fluctuations, indicating consistent business performance but potential opportunities for growth optimization.
+* Profit trends show variability, suggesting cost fluctuations or inefficiencies that may need further investigation.
+* Regional contribution is evenly distributed, with no single region dominating, implying a well-diversified market presence.
+* Product/Service revenue shows balanced performance, though slight differences indicate potential high-performing offerings that could be prioritized.
+* Cash inflows consistently exceed outflows, indicating positive liquidity, though occasional dips suggest periods of higher expenditure.
+* Payables aging indicates a concentration in lower aging buckets, reflecting efficient short-term liability management.
+
+**3. Assumptions Made**
+
+* Financial data is aggregated at a monthly level and is assumed to be accurate and cleaned prior to visualization.
+* Revenue, profit, and cash flow metrics are calculated using standard financial definitions.
+* Budget data is pre-defined and used as a benchmark for comparison without real-time updates.
+* Regional and product/service classifications are mutually exclusive and collectively exhaustive.
+* External factors (market trends, economic conditions) are not incorporated into the dashboard but may influence observed patterns.
+* Users have basic familiarity with financial metrics and Power BI interactivity.
+
+**Conclusion**
+This dashboard enables stakeholders to monitor financial performance efficiently, identify trends, and make data-driven decisions. Its interactive nature ensures flexibility, while the structured layout enhances clarity and usability.
